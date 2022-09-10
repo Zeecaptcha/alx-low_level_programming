@@ -1,21 +1,28 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - Entry point
+ * main - No entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Success!)
  */
+
 int main(void)
 {
-int z;
+	char low;
+	char row;
 
-for (z = 48; z <= 57; z++)
-{
-putchar(z);
-}
-for (z = 97; z <= 102;z++)
-{
-putchar(z)
-}
-putchar('\n');
-return (0);
+	row = 'a';
+	for (low = 0; low < 10; low++)
+	{
+		putchar(low + '0');
+	}
+	for (low = 10; low <= 15; low++)
+	{
+		putchar(row);
+		row++;
+	}
+	putchar('\n');
+	return (0);
 }

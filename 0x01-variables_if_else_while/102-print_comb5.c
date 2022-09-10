@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - main block
  * Description: Write a program that prints all possible
  * different combinations of two digits
  * Return: 0
- */
+*/
+
 int main(void)
 {
 int c;
